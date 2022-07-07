@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header, .nav, .main {
+            display: flex;
+        }
+        .logo {
+            flex: 30%;
+            height: 100px;
+            background: blue;
+            margin: 5px;
+        }
+        .banner {
+            flex: 70%;
+            height: 100px;
+            background: blue;
+            margin: 5px;
+        }
+        .nav {
+            height: 50px;
+            background: blue;
+            margin: 5px;
+            justify-content: space-between;
+            line-height: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .menu {
+            display: flex;
+        }
+        .menu-item {
+            color: white;
+            margin-left: 10px;
+        }
+
+        .left, .right {
+            flex: 20%;
+            height: 600px;
+            border: 1px solid;
+            margin: 5px;
+        }
+
+        .mid {
+            flex: 60%;
+            height: 600px;
+            margin: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .slides {
+            flex: 100%;
+            height: 200px;
+            border: 1px solid;
+            margin: 5px;
+        }
+        .mid-item {
+            flex: 30%;
+            height: 200px;
+            border: 1px solid;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Logo</div>
+        <div class="banner">Banner</div>
+    </div>
+    <div class="nav">
+        <div class="menu">
+            <div class="menu-item">Home</div>
+            <div class="menu-item">About</div>
+            <div class="menu-item">Contact</div>
+        </div>
+        <div class="login">
+            <button>Login</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="left">Slide bar</div>   
+        <div class="mid">
+            <div class="slides">
+            </div>
+            <div class="mid-item"></div>
+            <div class="mid-item"></div>
+            <div class="mid-item"></div>
+            <div class="mid-item"></div>
+            <div class="mid-item"></div>
+            <div class="mid-item"></div>
+        </div>   
+        <div class="right">Poster</div>   
+    </div>
+</body>
+</html>
