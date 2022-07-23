@@ -10,3 +10,9 @@ document.write('<br/>')
 document.write('b = ' + b)
 document.write('<br/>')
 document.write('s = ' + s)
+document.write('<br/>')
+
+let width = 20
+let height = 10
+let area = width + height
+document.write('Area = ' + area)
