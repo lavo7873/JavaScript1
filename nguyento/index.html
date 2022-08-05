@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let count = 0;
+        let i = 2;
+        // using while loop
+
+        while (count < 20) {
+            let flag = 0;
+
+            // looping through 2 to user input number
+            for (let j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    flag = 1;
+                    break;
+                }
+            }
+
+            // if number greater than 1 and not divisible by other numbers
+            if (i > 1 && flag == 0) {
+                console.log(i);
+                count++;
+            }
+
+            i++;
+        }
+    </script>
+</body>
+
+</html>
