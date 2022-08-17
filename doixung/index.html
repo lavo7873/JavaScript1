@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+
+<body>
+      <script>
+            function palindromeFun(str) {
+                  // convert the string into an array using the string.split() function  
+                  const arrValue = string.split(''); //   
+
+                  // use reverse() method to reverse the array values  
+                  const reveArrVal = arrValue.reverse();
+
+                  // use join() method to group the array values into the string  
+                  const revString = reveArrVal.join('');
+
+                  if (string == revString) // sử dụng chuỗi str bằng với rev
+                  {
+                        alert('Đây là từ hoặc số đối xứng '); // print hàm đối xứng   
+                  }
+                  else {
+                        alert('Đây không phải là từ hoặc số đối xứng'); // Nếu điều kiện không đúng.  
+                  }
+            }
+            // take a string from the user  
+            const string = prompt(' Mời nhập một chuổi kiểm tra đối xứng hoặc không : ');
+            const value = palindromeFun(string); // call the function  
+            console.log(value);
+
+      </script>
+</body>
+
+</html>
