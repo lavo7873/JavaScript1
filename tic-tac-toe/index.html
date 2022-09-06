@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+      <div id="canvasCont">
+            <canvas id="canvas"></canvas>
+            <div id="infoCont">
+                  <div class="cont">
+                        <p class="title" style="color: #333aff">YOU</p>
+                        <p class="out" id="you">23</p>
+                  </div>
+                  <div class="cont">
+                        <p class="title">STEPS</p>
+                        <p class="out" id="steps">23</p>
+                  </div>
+                  <div class="cont">
+                        <p class="title" style="color: #99ffa3">AI</p>
+                        <p class="out" id="ai">23</p>
+                  </div>
+            </div>
+            <div id="buttonAndBlur">
+                  <button type="button" class="nes-btn" id="btnFirst">Play</button>
+                  <div class="nes-container with-title is-centered" id="secondCont">
+                        <p class="title">Lets start</p>
+                        <p>Your snake is <span id="urColor"> this color</span>, AI snake <span id="aiColor"> is this
+                                    color</span>.</p>
+                        <p>Press WASD to control your snake</p>
+                        <button type="button" class="nes-btn" id="btnSecond">Play</button>
+                  </div>
+            </div>
+      </div>
+      <section class="icon-list" style="position: absolute; top: 10px; left: 10px;">
+      </section>
+      </div>
+      <script src="index.js"></script>
+</body>
+
+</html>
