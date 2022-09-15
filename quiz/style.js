@@ -1,6 +1,9 @@
-let x = prompt("Nhập số x :");
-let y = prompt("Nhập số y :");
-
-x %=y
-
-document.write("Số là : " + x)
+var day = "Mon"; 
+var message = ""; 
+ 
+switch(day){ 
+case "Mon": message = "Ngày đầu tuần"; 
+case "Wed": message = "Ngày giữa tuần"; 
+case "Sat": 
+case "Sun": message = "Ngày nghỉ"; 
+}
