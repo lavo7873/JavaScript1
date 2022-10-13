@@ -6,7 +6,7 @@ html, body { height: 100%; width: 100%; margin: 0; }
     transform: translateX(-50%);
     overflow: hidden;
     background-color: black;
-    box-shadow: ;
+    box-shadow:;
 
 }
 canvas{

@@ -1,9 +1,10 @@
-var day = "Mon"; 
-var message = ""; 
- 
-switch(day){ 
-case "Mon": message = "Ngày đầu tuần"; 
-case "Wed": message = "Ngày giữa tuần"; 
-case "Sat": 
-case "Sun": message = "Ngày nghỉ"; 
-}
+function swap(a, b) {
+      var temp = a;
+      a = b;
+      b = temp;
+  }
+  
+  var a = 5;
+  var b = 10;
+  swap(a, b);
+  document.write("a = " + a + ", b = " + b);
